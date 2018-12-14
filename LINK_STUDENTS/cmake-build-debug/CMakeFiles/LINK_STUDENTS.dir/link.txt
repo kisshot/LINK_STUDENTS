@@ -1,1 +1,1 @@
-/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/LINK_STUDENTS.dir/main.c.o CMakeFiles/LINK_STUDENTS.dir/function.c.o  -o LINK_STUDENTS.exe -Wl,--out-implib,libLINK_STUDENTS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/LINK_STUDENTS.dir/main.c.o CMakeFiles/LINK_STUDENTS.dir/function.c.o  -o LINK_STUDENTS 

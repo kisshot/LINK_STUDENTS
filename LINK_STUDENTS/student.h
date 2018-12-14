@@ -7,21 +7,21 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include <string.h>
+#define MAX 1000
 
 typedef struct
 {
     char name[20];
     int age;
+    int number;
+    int iphone;
     char sex[20];
-    int number[20];
-    int iphone[20];
 } Student; //定义每个学生的结构体
 
 typedef struct
 {
-    Student num[1000];
+    Student num[MAX];
     int count;
 } Contact; //这个通讯录可以包含1000个学生
 

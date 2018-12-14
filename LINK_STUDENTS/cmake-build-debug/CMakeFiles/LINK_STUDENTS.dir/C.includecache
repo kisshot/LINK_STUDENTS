@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/conio.h
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/conio.h
 stdio.h
 -
 unistd.h
@@ -16,24 +16,24 @@ termios.h
 sys/select.h
 -
 
-/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/main.c
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/function.c
+student.h
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/student.h
+
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/main.c
 stdio.h
 -
 stdlib.h
--
-windows.h
 -
 conio.h
-/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/conio.h
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/conio.h
 student.h
-/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/student.h
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/student.h
 
-/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/student.h
+/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/student.h
 stdio.h
 -
 stdlib.h
--
-windows.h
 -
 string.h
 -

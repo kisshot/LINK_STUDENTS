@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/LuFan/.CLion2018.3/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/LuFan/.CLion2018.3/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS
+CMAKE_SOURCE_DIR = /Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/LINK_STUDENTS.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/cmake-bui
 CMakeFiles/LINK_STUDENTS.dir/all:
 	$(MAKE) -f CMakeFiles/LINK_STUDENTS.dir/build.make CMakeFiles/LINK_STUDENTS.dir/depend
 	$(MAKE) -f CMakeFiles/LINK_STUDENTS.dir/build.make CMakeFiles/LINK_STUDENTS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target LINK_STUDENTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target LINK_STUDENTS"
 .PHONY : CMakeFiles/LINK_STUDENTS.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/LINK_STUDENTS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LINK_STUDENTS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LINK_STUDENTS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/LuFan/CLionProjects/LINK_STUDENTS/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lufan/Documents/GitHub/LINK_STUDENTS/LINK_STUDENTS/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/LINK_STUDENTS.dir/rule
 
 # Convenience name for target.
