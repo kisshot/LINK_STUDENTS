@@ -7,7 +7,11 @@
 
 void menu_Add()
 {
-    printf("ADD\n");
+    printf("ADD NAME:\n");
+    printf("ADD AGE:\n");
+    printf("ADD NUMBER:\n");
+    printf("ADD IPHONE:\n");
+    printf("ADD SEX:\n");
 }
 
 void InitContact(Contact *p)
@@ -18,6 +22,20 @@ void InitContact(Contact *p)
 void AddContact(Contact *p)
 {
     menu_Add();
+    int input = 0;
+    printf("输入姓名:\n");
+    scanf("%s", p->num[p->count].name);
+    printf("年龄：\n");
+    scanf("%d", &(p->num[p->count].age));
+    printf("学号：\n");
+    scanf("%d", &(p->num[p->count].number));
+    printf("电话：\n");
+    scanf("%d", &(p->num[p->count].iphone));
+    printf("性别：\n");
+    scanf("%s", p->num[p->count].sex);
+
+    p->count++;  //非常重要的句子，没有这个语句输入就不会被存储
+
 } //定义添加函数,对应数字 1
 
 int Find_St(Contact *p, char *pname)//对于一个联系人是否存在封装一个函数，在后面的修改、删除、查找可以用到
