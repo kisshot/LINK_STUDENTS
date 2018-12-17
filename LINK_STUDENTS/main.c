@@ -3,6 +3,16 @@
 #include "conio.h"
 #include "student.h"
 
+
+#define CMD_ADD    	1
+#define CMD_FIND    2
+#define CMD_DEL     3
+#define CMD_ALTER   4
+#define CMD_PRINT	5
+#define CMD_EMPTY	6
+#define CMD_SORT	7
+#define CMD_SAVE	8
+
 Contact con;
 void menu()
 {
@@ -12,7 +22,8 @@ void menu()
     printf("void AlterContact(Contact *p); //定义修改函数，对应数字 4\n");
     printf("void PrintContact(Contact *p); //定义打印函数，对应数字 5\n");
     printf("void EmptyContact(Contact *p); //定义清空函数，对应数字 6\n");
-    printf("void SortContact(Contact *p); //定义排序函数，对应数字 7");
+    printf("void SortContact(Contact *p); //定义排序函数，对应数字 7\n");
+    printf("void SaveContact(Contact *p); //定义排序函数，对应数字 8\n");
 }
 
 void pause_list()
@@ -50,11 +61,29 @@ int main(void)
         {
             case 0:
                 break;
-            case 1:
+            case CMD_ADD:
                 AddContact(&con);
                 break;
-            case 2:
+            case CMD_FIND:
                 FindContact(&con);
+                break;
+            case CMD_DEL:
+                DelContact(&con);
+                break;
+            case CMD_ALTER:
+                AlterContact(&con);
+                break;
+            case CMD_PRINT:
+                PrintContact(&con);
+                break;
+            case CMD_EMPTY:
+                EmptyContact(&con);
+                break;
+            case CMD_SORT:
+                SortContact(&con);
+                break;
+            case CMD_SAVE:
+                SaveContact(&con);
                 break;
             default:
                 printf("ERROR");
