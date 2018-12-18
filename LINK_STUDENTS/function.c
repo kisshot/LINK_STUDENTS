@@ -78,7 +78,6 @@ void DelContact(Contact *p)
     char name[20] = {0};
     int result = 0;
     int if_del = 0;
-    int i = 0;
     printf("请输入要删除人的姓名：\n");
     scanf("%s", name);
     result = Find_St(p, name);
@@ -89,7 +88,8 @@ void DelContact(Contact *p)
         scanf("%d", &if_del);
         if (if_del == 1)
         {
-            for (i = 0; i < (p->count)-1; i++)
+            int i = result;
+            for (; i < (p->count)-1; i++)
             {
                 p->num[i] = p->num[i + 1];
             }
@@ -171,10 +171,10 @@ void PrintContact(Contact *p)
     for (i = 0; i < (p->count); i++)
     {
         printf("%11s", p->num[i].name);
-        printf("%5s", p->num[i].sex);
+        printf("%11s", p->num[i].sex);
         printf("%11s", p->num[i].age);
         printf("%11s", p->num[i].iphone);
-        printf("%12s", p->num[i].number);
+        printf("%11s", p->num[i].number);
         printf("\n");
     }
 

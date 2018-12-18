@@ -11,12 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65236eda-e0fa-4316-be47-d366d3d4bf26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/CMakeFiles/LINK_STUDENTS.dir/function.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/CMakeFiles/LINK_STUDENTS.dir/function.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/CMakeFiles/LINK_STUDENTS.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/CMakeFiles/LINK_STUDENTS.dir/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/LINK_STUDENTS" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/LINK_STUDENTS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/function.c" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/function.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LINK_STUDENTS/student.h" beforeDir="false" afterPath="$PROJECT_DIR$/LINK_STUDENTS/student.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/LINK_STUDENTS/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
+            <state relative-caret-position="408">
               <caret line="24" column="42" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -43,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/function.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="37">
+              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -52,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/student.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-143">
+            <state relative-caret-position="493">
               <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="e#107#125#0" expanded="true" />
@@ -146,23 +141,24 @@
       <updated>1544780309371</updated>
       <workItem from="1544780312568" duration="4173000" />
       <workItem from="1544881748656" duration="6214000" />
-      <workItem from="1545039397622" duration="3021000" />
+      <workItem from="1545039397622" duration="3056000" />
+      <workItem from="1545132767763" duration="1457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13408000" />
+    <option name="totallyTimeSpent" value="14900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="32" width="1400" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,12 +179,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/conio.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="408">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -198,7 +191,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/student.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-143">
+        <state relative-caret-position="493">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="e#107#125#0" expanded="true" />
@@ -206,10 +199,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/conio.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/LINK_STUDENTS/function.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="37">
+          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
         </state>
       </provider>
     </entry>
